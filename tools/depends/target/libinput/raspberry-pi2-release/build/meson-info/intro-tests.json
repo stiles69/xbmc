@@ -1,0 +1,1 @@
+[{"cmd": ["/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/udev/parse_hwdb.py", "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/../udev/90-libinput-model-quirks.hwdb"], "env": {}, "name": "parse-hwdb", "workdir": null, "timeout": 30, "suite": ["libinput"], "is_parallel": true}]

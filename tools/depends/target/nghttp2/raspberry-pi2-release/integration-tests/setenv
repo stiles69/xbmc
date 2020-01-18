@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+libdir="/root/kodi/tools/depends/target/nghttp2/raspberry-pi2-release/lib"
+if [ -d "$libdir/.libs" ]; then
+    libdir="$libdir/.libs"
+fi
+
+export CGO_CFLAGS="-I/root/kodi/tools/depends/target/nghttp2/raspberry-pi2-release/lib/includes -I/root/kodi/tools/depends/target/nghttp2/raspberry-pi2-release/lib/includes"
+export CGO_LDFLAGS="-L$libdir"
+export LD_LIBRARY_PATH="$libdir"
+export GODEBUG=cgocheck=0
+"$@"

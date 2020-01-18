@@ -1,0 +1,164 @@
+[
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ilibinput-device-group@exe -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -MD -MQ 'libinput-device-group@exe/udev_libinput-device-group.c.o' -MF 'libinput-device-group@exe/udev_libinput-device-group.c.o.d' -o 'libinput-device-group@exe/udev_libinput-device-group.c.o' -c ../udev/libinput-device-group.c",
+    "file": "../udev/libinput-device-group.c",
+    "output": "libinput-device-group@exe/udev_libinput-device-group.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ilibinput-model-quirks@exe -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -MD -MQ 'libinput-model-quirks@exe/udev_libinput-model-quirks.c.o' -MF 'libinput-model-quirks@exe/udev_libinput-model-quirks.c.o.d' -o 'libinput-model-quirks@exe/udev_libinput-model-quirks.c.o' -c ../udev/libinput-model-quirks.c",
+    "file": "../udev/libinput-model-quirks.c",
+    "output": "libinput-model-quirks@exe/udev_libinput-model-quirks.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ilibinput-util@sta -I. -I.. -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'libinput-util@sta/src_libinput-util.c.o' -MF 'libinput-util@sta/src_libinput-util.c.o.d' -o 'libinput-util@sta/src_libinput-util.c.o' -c ../src/libinput-util.c",
+    "file": "../src/libinput-util.c",
+    "output": "libinput-util@sta/src_libinput-util.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ifilter@sta -I. -I.. -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'filter@sta/src_filter.c.o' -MF 'filter@sta/src_filter.c.o.d' -o 'filter@sta/src_filter.c.o' -c ../src/filter.c",
+    "file": "../src/filter.c",
+    "output": "filter@sta/src_filter.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_libinput.c.o' -MF 'input@sha/src_libinput.c.o.d' -o 'input@sha/src_libinput.c.o' -c ../src/libinput.c",
+    "file": "../src/libinput.c",
+    "output": "input@sha/src_libinput.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev.c.o' -MF 'input@sha/src_evdev.c.o.d' -o 'input@sha/src_evdev.c.o' -c ../src/evdev.c",
+    "file": "../src/evdev.c",
+    "output": "input@sha/src_evdev.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-debounce.c.o' -MF 'input@sha/src_evdev-debounce.c.o.d' -o 'input@sha/src_evdev-debounce.c.o' -c ../src/evdev-debounce.c",
+    "file": "../src/evdev-debounce.c",
+    "output": "input@sha/src_evdev-debounce.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-fallback.c.o' -MF 'input@sha/src_evdev-fallback.c.o.d' -o 'input@sha/src_evdev-fallback.c.o' -c ../src/evdev-fallback.c",
+    "file": "../src/evdev-fallback.c",
+    "output": "input@sha/src_evdev-fallback.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-middle-button.c.o' -MF 'input@sha/src_evdev-middle-button.c.o.d' -o 'input@sha/src_evdev-middle-button.c.o' -c ../src/evdev-middle-button.c",
+    "file": "../src/evdev-middle-button.c",
+    "output": "input@sha/src_evdev-middle-button.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-mt-touchpad.c.o' -MF 'input@sha/src_evdev-mt-touchpad.c.o.d' -o 'input@sha/src_evdev-mt-touchpad.c.o' -c ../src/evdev-mt-touchpad.c",
+    "file": "../src/evdev-mt-touchpad.c",
+    "output": "input@sha/src_evdev-mt-touchpad.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-mt-touchpad-tap.c.o' -MF 'input@sha/src_evdev-mt-touchpad-tap.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-tap.c.o' -c ../src/evdev-mt-touchpad-tap.c",
+    "file": "../src/evdev-mt-touchpad-tap.c",
+    "output": "input@sha/src_evdev-mt-touchpad-tap.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-mt-touchpad-buttons.c.o' -MF 'input@sha/src_evdev-mt-touchpad-buttons.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-buttons.c.o' -c ../src/evdev-mt-touchpad-buttons.c",
+    "file": "../src/evdev-mt-touchpad-buttons.c",
+    "output": "input@sha/src_evdev-mt-touchpad-buttons.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-mt-touchpad-edge-scroll.c.o' -MF 'input@sha/src_evdev-mt-touchpad-edge-scroll.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-edge-scroll.c.o' -c ../src/evdev-mt-touchpad-edge-scroll.c",
+    "file": "../src/evdev-mt-touchpad-edge-scroll.c",
+    "output": "input@sha/src_evdev-mt-touchpad-edge-scroll.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-mt-touchpad-gestures.c.o' -MF 'input@sha/src_evdev-mt-touchpad-gestures.c.o.d' -o 'input@sha/src_evdev-mt-touchpad-gestures.c.o' -c ../src/evdev-mt-touchpad-gestures.c",
+    "file": "../src/evdev-mt-touchpad-gestures.c",
+    "output": "input@sha/src_evdev-mt-touchpad-gestures.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-tablet.c.o' -MF 'input@sha/src_evdev-tablet.c.o.d' -o 'input@sha/src_evdev-tablet.c.o' -c ../src/evdev-tablet.c",
+    "file": "../src/evdev-tablet.c",
+    "output": "input@sha/src_evdev-tablet.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-tablet-pad.c.o' -MF 'input@sha/src_evdev-tablet-pad.c.o.d' -o 'input@sha/src_evdev-tablet-pad.c.o' -c ../src/evdev-tablet-pad.c",
+    "file": "../src/evdev-tablet-pad.c",
+    "output": "input@sha/src_evdev-tablet-pad.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_evdev-tablet-pad-leds.c.o' -MF 'input@sha/src_evdev-tablet-pad-leds.c.o.d' -o 'input@sha/src_evdev-tablet-pad-leds.c.o' -c ../src/evdev-tablet-pad-leds.c",
+    "file": "../src/evdev-tablet-pad-leds.c",
+    "output": "input@sha/src_evdev-tablet-pad-leds.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_filter.c.o' -MF 'input@sha/src_filter.c.o.d' -o 'input@sha/src_filter.c.o' -c ../src/filter.c",
+    "file": "../src/filter.c",
+    "output": "input@sha/src_filter.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_path-seat.c.o' -MF 'input@sha/src_path-seat.c.o.d' -o 'input@sha/src_path-seat.c.o' -c ../src/path-seat.c",
+    "file": "../src/path-seat.c",
+    "output": "input@sha/src_path-seat.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_udev-seat.c.o' -MF 'input@sha/src_udev-seat.c.o.d' -o 'input@sha/src_udev-seat.c.o' -c ../src/udev-seat.c",
+    "file": "../src/udev-seat.c",
+    "output": "input@sha/src_udev-seat.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iinput@sha -I. -I.. -I../ -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'input@sha/src_timer.c.o' -MF 'input@sha/src_timer.c.o.d' -o 'input@sha/src_timer.c.o' -c ../src/timer.c",
+    "file": "../src/timer.c",
+    "output": "input@sha/src_timer.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Itools_shared@sta -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -fPIC -MD -MQ 'tools_shared@sta/tools_shared.c.o' -MF 'tools_shared@sta/tools_shared.c.o.d' -o 'tools_shared@sta/tools_shared.c.o' -c ../tools/shared.c",
+    "file": "../tools/shared.c",
+    "output": "tools_shared@sta/tools_shared.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ilibinput-debug-events@exe -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -MD -MQ 'libinput-debug-events@exe/tools_libinput-debug-events.c.o' -MF 'libinput-debug-events@exe/tools_libinput-debug-events.c.o.d' -o 'libinput-debug-events@exe/tools_libinput-debug-events.c.o' -c ../tools/libinput-debug-events.c",
+    "file": "../tools/libinput-debug-events.c",
+    "output": "libinput-debug-events@exe/tools_libinput-debug-events.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ilibinput-list-devices@exe -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -MD -MQ 'libinput-list-devices@exe/tools_libinput-list-devices.c.o' -MF 'libinput-list-devices@exe/tools_libinput-list-devices.c.o.d' -o 'libinput-list-devices@exe/tools_libinput-list-devices.c.o' -c ../tools/libinput-list-devices.c",
+    "file": "../tools/libinput-list-devices.c",
+    "output": "libinput-list-devices@exe/tools_libinput-list-devices.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ilibinput-measure@exe -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -MD -MQ 'libinput-measure@exe/tools_libinput-measure.c.o' -MF 'libinput-measure@exe/tools_libinput-measure.c.o.d' -o 'libinput-measure@exe/tools_libinput-measure.c.o' -c ../tools/libinput-measure.c",
+    "file": "../tools/libinput-measure.c",
+    "output": "libinput-measure@exe/tools_libinput-measure.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Ilibinput@exe -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -MD -MQ 'libinput@exe/tools_libinput-tool.c.o' -MF 'libinput@exe/tools_libinput-tool.c.o.d' -o 'libinput@exe/tools_libinput-tool.c.o' -c ../tools/libinput-tool.c",
+    "file": "../tools/libinput-tool.c",
+    "output": "libinput@exe/tools_libinput-tool.c.o"
+  },
+  {
+    "directory": "/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build",
+    "command": "/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Iptraccel-debug@exe -I. -I.. -I../src -I../include -I/root/kodi-rpi/raspberry-pi2-release/include -I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -g -Wno-unused-parameter -g -fvisibility=hidden -Wmissing-prototypes -Wstrict-prototypes -MD -MQ 'ptraccel-debug@exe/tools_ptraccel-debug.c.o' -MF 'ptraccel-debug@exe/tools_ptraccel-debug.c.o.d' -o 'ptraccel-debug@exe/tools_ptraccel-debug.c.o' -c ../tools/ptraccel-debug.c",
+    "file": "../tools/ptraccel-debug.c",
+    "output": "ptraccel-debug@exe/tools_ptraccel-debug.c.o"
+  }
+]

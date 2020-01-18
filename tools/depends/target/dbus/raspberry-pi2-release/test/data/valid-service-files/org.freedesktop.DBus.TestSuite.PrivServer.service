@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuite.PrivServer
+Exec=/root/kodi/tools/depends/target/dbus/raspberry-pi2-release/test/name-test/test-privserver
+

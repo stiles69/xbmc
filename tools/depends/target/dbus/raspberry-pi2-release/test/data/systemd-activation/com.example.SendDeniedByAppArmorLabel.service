@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=com.example.SendDeniedByAppArmorLabel
+Exec=/bin/false SendDeniedByAppArmorLabel
+SystemdService=dbus-com.example.SendDeniedByAppArmorLabel.service
+AssumedAppArmorLabel=/root/kodi/tools/depends/target/dbus/raspberry-pi2-release/test/test-apparmor-activation//com.example.SendDeniedByAppArmorLabel

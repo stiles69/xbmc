@@ -1,0 +1,317 @@
+Build started at 2020-01-18T10:45:51.741891
+Main binary: /root/kodi-rpi/x86_64-linux-gnu-native/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.51.0
+Source dir: /root/kodi/tools/depends/target/libinput/raspberry-pi2-release
+Build dir: /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build
+Build type: cross build
+Project name: libinput
+Project version: 1.10.5
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: /usr/bin/gcc
+Is cross compiler: False.
+Sanity check compiler command line: /usr/bin/gcc /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckc.c -o /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: /usr/bin/gcc (gcc 7.4.0 "gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: /usr/bin/g++
+Is cross compiler: False.
+Sanity check compiler command line: /usr/bin/g++ /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckcpp.cc -o /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: /usr/bin/g++ (gcc 7.4.0 "g++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
+Sanity testing C compiler: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+Is cross compiler: True.
+Sanity check compiler command line: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckc.c -o /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckc_cross.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc (gcc 4.9.3 "arm-linux-gnueabihf-gcc (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 4.9.3")
+Sanity testing C++ compiler: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+Is cross compiler: True.
+Sanity check compiler command line: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckcpp.cc -o /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/build/meson-private/sanitycheckcpp_cross.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C++ compiler for the host machine: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ (gcc 4.9.3 "arm-linux-gnueabihf-g++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 4.9.3")
+Host machine cpu family: 
+Host machine cpu: 
+Target machine cpu family: 
+Target machine cpu: 
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Running compile:
+Working directory:  /tmp/tmpj1ehlp29
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc /tmp/tmpj1ehlp29/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+
+Code:
+ 
+        #define _GNU_SOURCE 1
+#include <assert.h>
+
+        #ifndef static_assert
+        # define static_assert
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+static_assert
+Compiler stdout:
+ 
+extern void __assert_fail (const char *__assertion, const char *__file,
+      unsigned int __line, const char *__function)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+extern void __assert_perror_fail (int __errnum, const char *__file,
+      unsigned int __line, const char *__function)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+extern void __assert (const char *__assertion, const char *__file, int __line)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+
+        "MESON_GET_DEFINE_DELIMITER"
+_Static_assert
+
+Compiler stderr:
+ 
+Fetching value of define "static_assert" : _Static_assert 
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary for MachineChoice.HOST specified from cross file, native file, or env var as ['/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config']
+Trying pkg-config binary pkgconfig for machine MachineChoice.HOST at ['/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config']
+Found pkg-config: /root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config (0.29.2)
+Determining dependency 'libudev' with pkg-config executable '/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config --modversion libudev` -> 0
+220
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config --cflags libudev` -> 0
+-I/root/kodi-rpi/raspberry-pi2-release/include
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config libudev --libs` -> 0
+-L/root/kodi-rpi/raspberry-pi2-release/lib -ludev
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config libudev --libs` -> 0
+-L/root/kodi-rpi/raspberry-pi2-release/lib -ludev
+Running compile:
+Working directory:  /tmp/tmp0cfz2jrt
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmp0cfz2jrt/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp0cfz2jrt/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main(int argc, char **argv) {
+            void * something;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpv8g1bfdn
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmpv8g1bfdn/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpv8g1bfdn/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main() { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp0fwikweh
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmp0fwikweh/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp0fwikweh/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main() { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpnjf73ldq
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmpnjf73ldq/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpnjf73ldq/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main() { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpf34oe7sj
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmpf34oe7sj/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpf34oe7sj/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main() { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpb1gv7qyi
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmpb1gv7qyi/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpb1gv7qyi/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main() { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /tmp/tmpb1gv7qyi/testfile.cpp: In function 'int main()':
+/tmp/tmpb1gv7qyi/testfile.cpp:3:60: error: size of array 'a' is negative
+         int main() { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+                                                            ^
+
+Running compile:
+Working directory:  /tmp/tmpz4y6_ajv
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmpz4y6_ajv/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpz4y6_ajv/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main() { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpygmmleuc
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmpygmmleuc/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpygmmleuc/output.obj -O0 -fpermissive 
+
+Code:
+ #include <stdio.h>
+        
+        int main() { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmptb_oskk0
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ /tmp/tmptb_oskk0/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmptb_oskk0/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/
+programs: =/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+libraries: =/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency libudev found: YES 220
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'mtdev' with pkg-config executable '/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config --modversion mtdev` -> 0
+1.1.5
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config --cflags mtdev` -> 0
+-I/root/kodi-rpi/raspberry-pi2-release/include
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config mtdev --libs` -> 0
+-L/root/kodi-rpi/raspberry-pi2-release/lib -lmtdev
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config mtdev --libs` -> 0
+-L/root/kodi-rpi/raspberry-pi2-release/lib -lmtdev
+Run-time dependency mtdev found: YES 1.1.5
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libevdev' with pkg-config executable '/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config --modversion libevdev` -> 0
+1.5.8
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config --cflags libevdev` -> 0
+-I/root/kodi-rpi/raspberry-pi2-release/include/libevdev-1.0/
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config libevdev --libs` -> 0
+-L/root/kodi-rpi/raspberry-pi2-release/lib -levdev
+PKG_CONFIG_PATH: 
+Called `/root/kodi-rpi/x86_64-linux-gnu-native/bin/pkg-config libevdev --libs` -> 0
+-L/root/kodi-rpi/raspberry-pi2-release/lib -levdev
+Run-time dependency libevdev found: YES 1.5.8
+Running compile:
+Working directory:  /tmp/tmpimxws3nt
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -L/root/kodi-rpi/raspberry-pi2-release/lib -L/root/kodi-rpi/raspberry-pi2-release/lib64 -lpthread -L/root/firmware/opt/vc/lib -lEGL -lGLESv2 -lbcm_host -lvcos    -lvchiq_arm   /tmp/tmpimxws3nt/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpimxws3nt/output.exe -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Running compile:
+Working directory:  /tmp/tmp1omaw50l
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -L/root/kodi-rpi/raspberry-pi2-release/lib -L/root/kodi-rpi/raspberry-pi2-release/lib64 -lpthread -L/root/firmware/opt/vc/lib -lEGL -lGLESv2 -lbcm_host -lvcos    -lvchiq_arm   /tmp/tmp1omaw50l/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp1omaw50l/output.exe -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rt found: YES
+Program udev/parse_hwdb.py found: YES (/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/udev/parse_hwdb.py)
+Adding test "parse-hwdb"
+WARNING: Project targetting '>= 0.40.0' but tried to use feature introduced in '0.50.0': install arg in configure_file
+Configuring 80-libinput-device-groups.rules using configuration
+Configuring 90-libinput-model-quirks.rules using configuration
+Configuring 90-libinput-model-quirks.hwdb using configuration
+Configuring 80-libinput-device-groups-litest.rules using configuration
+Configuring 90-libinput-model-quirks-litest.rules using configuration
+Configuring libinput-version.h using configuration
+Program src/libinput-restore-selinux-context.sh found: YES (/bin/sh /root/kodi/tools/depends/target/libinput/raspberry-pi2-release/src/libinput-restore-selinux-context.sh)
+Configuring libinput-debug-events.1 using configuration
+Configuring libinput-list-devices.1 using configuration
+Configuring libinput-measure.1 using configuration
+Configuring libinput-measure-touchpad-tap.1 using configuration
+Configuring libinput-measure-touchpad-pressure.1 using configuration
+Configuring libinput-measure-touch-size.1 using configuration
+Configuring libinput-measure-trackpoint-range.1 using configuration
+Configuring libinput.1 using configuration
+Program tools/install-compat-scripts.sh found: YES (/root/kodi/tools/depends/target/libinput/raspberry-pi2-release/tools/install-compat-scripts.sh)
+Configuring config.h using configuration
+Build targets in project: 11
+WARNING: Project specifies a minimum meson_version '>= 0.40.0' but uses features which were added in newer versions:
+ * 0.50.0: {'install arg in configure_file'}
+Found ninja-1.9.0 at /root/kodi-rpi/x86_64-linux-gnu-native/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpp0ewk_1f
+Command line:  /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc /tmp/tmpp0ewk_1f/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpp0ewk_1f/output.obj -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/
+programs: =/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+libraries: =/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/4.9.3/:/root/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+
+Compiler stderr:
+ 

@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteEchoService
+Exec=/root/kodi/tools/depends/target/dbus/raspberry-pi2-release/test/test-service

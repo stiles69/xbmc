@@ -1,0 +1,11 @@
+[options]
+debug-gui = false
+documentation = false
+libwacom = false
+tests = false
+prefix = /root/kodi-rpi/raspberry-pi2-release
+libdir = lib
+
+[properties]
+cross_file = ['/root/kodi-rpi/raspberry-pi2-release/share/cross-file.meson']
+
